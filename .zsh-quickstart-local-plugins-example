@@ -47,6 +47,8 @@ warn-about-prompt-change() {
 # as a starting point. This keeps you from having to maintain a fork of
 # the quickstart kit.
 
+zgenom load Aloxaf/fzf-tab
+
 # If zsh-syntax-highlighting is bundled after zsh-history-substring-search,
 # they break, so get the order right.
 zgenom load zdharma-continuum/fast-syntax-highlighting
